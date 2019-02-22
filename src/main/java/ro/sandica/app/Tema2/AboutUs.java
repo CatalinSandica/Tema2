@@ -12,7 +12,7 @@ public class AboutUs implements HttpHandler {
 		Home home = new Home();
 		
 		URI uri = exchange.getRequestURI();
-		String response = "<html><head><title>Services</title>"
+		String response = "<html><head><title>About</title>"
 				+ "<style>"
 				+ "body {margin: 0 auto;}"
 				+ "ul li {display:inline;list-type:none;padding:3px 10px;}"

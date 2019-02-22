@@ -14,7 +14,7 @@ public class Login implements HttpHandler{
 	
      public void handle(HttpExchange t) throws IOException {
      
-         String response = "<html><title>Response</title><body><h1>Login</h1>"
+         String response = "<html><title>Login</title><body><h1>Login</h1>"
          		+ "<br><br>"
          		+ "<form action=\"http://localhost:8001/home\">"
          		+ "First name: <input type=\"text\" name=\"fname\"><br><br>"
